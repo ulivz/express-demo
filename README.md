@@ -17,7 +17,7 @@ var server = http.createServer(function (req, res) {
 server.listen(9000)
 ```
 
-再来看看`express`如果如何快速创建一个服务器:
+再来看看`express`如果如何快速创建一个服务器：
 
 ```js
 http.createServer(app)
