@@ -7,20 +7,29 @@ Express的学习记录
 
 ## 创建一个服务器
 
-回顾一下原生的创建服务器的方式：
+回顾一下原生`http`的创建服务器的方式：
+
 ```js
+var http = require('http')
 var server = http.createServer(function (req, res) {
 	console.log('Hello Server')
 })
+server.listen(9000)
 ```
-再来看看express如果如何快速创建一个服务器:
+
+再来看看`express`如果如何快速创建一个服务器:
+
 ```js
 http.createServer(app)
 
-app.get('/api', function (req, res) {
-	res.send('Hello Server');
-	res.end();
+app.get('/', function (req, res) {
+	console.log('Hello Server')
 })
 
 app.listen(9000)
 ```
+
+综上可见，`app`实际上就是一个匿名函数。
+
+## 路由
+

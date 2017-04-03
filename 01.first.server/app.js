@@ -4,9 +4,9 @@ var http = require('http')
 var express = require('express')
 var app = express()
 
-var server = http.createServer(function (req, res) {
-	console.log('Hello Server')
-})
+// var server = http.createServer(function (req, res) {
+// 	console.log('Hello Server')
+// })
 //
 // server.listen(9000)
 
