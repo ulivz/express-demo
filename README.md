@@ -90,6 +90,7 @@ app.listen(9000)
 └─app.js
 ```
 
+`public`是一个用来存放静态资源的目录，
 
 
 
