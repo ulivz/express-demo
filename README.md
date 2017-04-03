@@ -90,7 +90,11 @@ app.listen(9000)
 └─app.js
 ```
 
-`public`是一个用来存放静态资源的目录，
+`public`是一个用来存放静态资源的目录，我们如果仅仅开启一个监听某某端口的服务，直接来访问`index.html`肯定是不行的。借助`express.static`，我们可以通过这样写，快速地将静态资源得到托管：
+
+```js
+app.use('/', express.static(__dirname + '/public'))
+```
 
 
 
