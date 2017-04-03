@@ -18,5 +18,7 @@
 - body parser
 - static
 
-express 3.0以前都依赖于`Connect`
+`express 3.0`以前都依赖于`Connect`。
+
+
 
