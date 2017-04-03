@@ -108,7 +108,19 @@ http://localhost:9000/index.html
 
 ## 自定义中间件
 
+我们可以来自定义一个中间件，同样也是采用`app.use()`:
 
-
+```js
+/**
+ * next下一个中间件的引用。
+ *
+ * 用户登录
+ * 对请求参数做加工处理
+ */
+app.use('/', function (req, res, next) {
+	console.log('进入自定义中间件')
+	next()
+})
+```
 
 
