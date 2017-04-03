@@ -33,7 +33,9 @@ app.get('/', function (req, res) {
 app.listen(9000)
 ```
 
-综上可见，`app`实际上就是一个匿名函数。
+综上可见，`app`实际上就是一个匿名函数。只不过，`app`比
 
 ## 路由
+
+
 
