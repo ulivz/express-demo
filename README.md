@@ -111,6 +111,7 @@ http://localhost:9000/index.html
 我们可以来自定义一个中间件，同样也是采用`app.use()`:
 
 ```js
+// 自定义中间件
 app.use('/', function (req, res, next) {
 	console.log('Enter customized middleware')
 	next()
@@ -122,5 +123,9 @@ app.all('/index', function (req, res) {
 	res.end()
 })
 ```
+如果我们请求`http://localhost:9001/index`，将会得到什么结果呢？
+
+
+
 
 
