@@ -76,6 +76,12 @@ app.listen(9000)
 
 而以前内置的中间件现在已经全部单独作为模块安装使用了。请参考 [中间件列表](https://github.com/senchalabs/connect#middleware)。
 
+## express.static
+
+作为目前唯一内置的中间件，我们不得不首先熟知。
+
+`express.static` 基于 `serve-static` （`Cinwell`的`docsify`的脚手架是否也是这个？），负责在 `Express` 应用中提托管静态资源。
+
 
 
 
