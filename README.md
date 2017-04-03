@@ -20,6 +20,10 @@ server.listen(9000)
 再来看看`express`如果如何快速创建一个服务器：
 
 ```js
+var http = require('http')
+var express = require('express')
+var app = express()
+
 http.createServer(app)
 
 app.get('/', function (req, res) {
