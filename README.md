@@ -70,7 +70,7 @@ app.listen(9000)
 
 ## express的中间件
 
-这里不得不提及`express`的创始人—— [tj](https://github.com/themejuice/tj), 这位我一直认为是对`Node.js`的发展影响最大的一位大佬之一。同时也是`Koa`、`Stylus`、`Pug`、`Mocha`、`Connect`等的作者。
+这里不得不提及`express`的创始人—— [tj](https://github.com/themejuice/tj), 这位我一直认为是对`Node.js`的发展影响最大的大佬之一。同时也是`Koa`、`Stylus`、`Pug`、`Mocha`、`Connect`等的作者。
 
 最早，`tj`只是推出了`Connect`这个包含了丰富的中间件的项目，后来，就有依赖于`Connect`的`express`。直到最新的4.0版本，`express`完全摆脱了`Connect`的依赖，而仅仅保留了`express.static`这一个内置中间件。
 
