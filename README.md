@@ -123,7 +123,15 @@ app.all('/index', function (req, res) {
 	res.end()
 })
 ```
-如果我们请求`http://localhost:9000/index`，将会得到什么结果呢？
+
+如果我们请求`http://localhost:9000/index`，将会得到什么结果呢？如下：
+
+```
+Enter customized middleware
+Hello Server
+```
+
+这里有一点很关键，就是在自定义中间的时候必须手动调用`next()`来触发下一个中间件的运行, 否则程序将停留在当前中间件。
 
 
 
