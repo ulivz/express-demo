@@ -22,7 +22,7 @@ app.all('/index', function (req, res) {
 	res.end()
 })
 
-http.createServer(app).listen(9001, function (err) {
+http.createServer(app).listen(9000, function (err) {
 	if (err) {
 		console.log('Fail to start server')
 	} else {

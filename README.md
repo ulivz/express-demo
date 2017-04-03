@@ -123,7 +123,7 @@ app.all('/index', function (req, res) {
 	res.end()
 })
 ```
-如果我们请求`http://localhost:9001/index`，将会得到什么结果呢？
+如果我们请求`http://localhost:9000/index`，将会得到什么结果呢？
 
 
 
