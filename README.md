@@ -82,6 +82,16 @@ app.listen(9000)
 
 `express.static` 是一个基于 `serve-static` 用于托管静态资源的中间件。 （注：`Cinwell`的`docsify`的脚手架是否也是这个？）
 
+例如，我们当前的目录结构如下：
+
+```html
+├─public
+│  └─index.html
+└─app.js
+```
+
+
+
 
 
 
