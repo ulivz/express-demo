@@ -54,7 +54,7 @@ app.listen(9000)
 
 ## 中间件
 
-<img style="width: 70%" src="../img/1.png" alt="">
+<img style="width: 70%" src="img/1.png" alt="">
 
 
 
