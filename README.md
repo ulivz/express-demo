@@ -72,9 +72,9 @@ app.listen(9000)
 
 这里不得不提及`express`的创始人—— [tj](https://github.com/themejuice/tj), 这位我一直认为是对`Node.js`的发展影响最大的一位大佬之一。同时也是`Koa`、`Stylus`、`Pug`、`Mocha`、`Connect`等的作者。
 
-最早，`tj`只是推出了`Connect`这个包含了丰富的中间件的项目，后来，就有依赖于`Connect`的`express`。直到最新的4.0版本，`express`完全摆脱了`Connect`的依赖。
+最早，`tj`只是推出了`Connect`这个包含了丰富的中间件的项目，后来，就有依赖于`Connect`的`express`。直到最新的4.0版本，`express`完全摆脱了`Connect`的依赖，而仅仅保留了`express.static`这一个内置中间件。
 
-其实，`express`中的中间件是使用了`Connect`中间件框架。（Connect是一个中间件框架它的作者与express的作者是同一个人）在3.0的版本中express是包含了Connect的中间件，而在最新的4.0版本中express不再依赖Connect，而且从内核中移除了除`express.static`外的所有内置中间件。
+而以前内置的中间件现在已经全部单独作为模块安装使用了。请参考 [中间件列表](https://github.com/senchalabs/connect#middleware)。
 
 
 
