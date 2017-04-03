@@ -118,8 +118,14 @@ http://localhost:9000/index.html
  * 对请求参数做加工处理
  */
 app.use('/', function (req, res, next) {
-	console.log('进入自定义中间件')
+	console.log('Enter customized middleware')
 	next()
+})
+
+app.all('/index', function (req, res) {
+	console.log('Hello Server')
+	res.send('Hello Browser')
+	res.end()
 })
 ```
 
