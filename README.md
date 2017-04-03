@@ -83,7 +83,7 @@ app.listen(9000)
 `express.static` 是一个基于 `serve-static` 用于托管静态资源的中间件。 （注：`Cinwell`的`docsify`的脚手架似乎也是这个？）
 
 
-- `express.static(root, [options])`
+### `express.static(root, [options])`
 - root: 指定提供静态资源的根目录。
 - options: 这里先行省略，请参见 [options](http://www.expressjs.com.cn/guide/using-middleware.html#middleware.built-in)
 
